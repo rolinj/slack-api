@@ -1,5 +1,6 @@
 ## Thread Analyzer
 Guide steps to determine the number of message threads a member/user was involved. (in Slack channels)
+All links included were from Slack API page. (https://api.slack.com)
 
 ###### Usage
 **Step 1:** Create Slack App (https://api.slack.com/apps?new_app=1)

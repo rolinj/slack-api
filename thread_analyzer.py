@@ -2,6 +2,7 @@ import requests
 
 URL = "https://slack.com/api/conversations.history?token=<APP_TOKEN>&channel=<CHANNEL_ID>&oldest=<UNIX_TIMESTAMP>&latest=<UNIX_TIMESTAMP>"
 
+#Dictionary of members to be checked.
 members = {"<USER_SLACK_ID>":"<USERNAME>"}
 counter = 0
 

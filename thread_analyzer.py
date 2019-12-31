@@ -20,6 +20,9 @@ for message in data["messages"]:
             if details["user"] in members.keys():
                 counter += 1
                 print(f"{members[details['user']]} replied on thread --> {message['text']}")
+
+                #Add break to exit the loop. This is to ignore multiple replies on a single thread.
+                #Also ignores replies of multiple members. 
                 break
 
 print("#########")
